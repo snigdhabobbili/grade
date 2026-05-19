@@ -31,5 +31,5 @@ print(f"Lowest:  {get_lowest_mark(test_marks)}")
 #   Both of you change the line below to different things,
 #   merge both branches, and watch Git flag the conflict!
 #
-TEAM_NAME = "Section A"   # ← both edit this line differently
+TEAM_NAME = "Section C"   # ← both edit this line differently
 # -------------------------------------------------------
