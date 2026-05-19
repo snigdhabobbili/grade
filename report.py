@@ -39,3 +39,9 @@ def print_class_summary(students: dict[str, list[float]]) -> None:
 #   2. Add colour to the output using ANSI codes
 #   3. Push to THEIR branch and open a Pull Request!
 # -------------------------------------------------------
+
+def print_topper(students: dict[str, list[float]]) -> None:
+    """Prints the student with the highest average."""
+    topper = max(students, key=lambda name: calculate_average(students[name]))
+    avg = calculate_average(students[topper])
+    print(f"\n🏆 Topper: {topper} with average {avg:.1f}")
