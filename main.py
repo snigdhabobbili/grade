@@ -3,6 +3,7 @@
 # Don't edit this until you're ready to practice a merge conflict!
 
 from report import print_student_report, print_class_summary
+from grades import get_highest_mark, get_lowest_mark
 
 # Sample data
 students = {
@@ -20,6 +21,10 @@ if __name__ == "__main__":
 
     # Print class summary
     print_class_summary(students)
+    
+test_marks = [88, 92, 79, 95]
+print(f"Highest: {get_highest_mark(test_marks)}")   
+print(f"Lowest:  {get_lowest_mark(test_marks)}")  
 
 # -------------------------------------------------------
 # 💥 CONFLICT EXERCISE (do this after both branches work):

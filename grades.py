@@ -26,7 +26,20 @@ def get_letter_grade(average: float) -> str:
 def is_passing(average: float) -> bool:
     """Returns True if the student is passing (average >= 40)."""
     return average >= 40
+def get_highest_mark(marks: list[float]) -> float:
+    """Returns the highest mark from the list."""
+    return max(marks)
 
+def get_lowest_mark(marks: list[float]) -> float:
+    """Returns the lowest mark from the list."""
+    return min(marks)
+def get_highest_mark(marks: list[float]) -> float:
+    """Returns the highest mark from the list."""
+    return max(marks)
+
+def get_lowest_mark(marks: list[float]) -> float:
+    """Returns the lowest mark from the list."""
+    return min(marks)
 
 # -------------------------------------------------------
 # 🧪 TODO for YOU (your friend won't touch this file):
